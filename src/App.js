@@ -2,8 +2,6 @@ import React from "react"
 import {BrowserRouter as Router, Redirect, Route,Switch } from "react-router-dom"
 import "./bootstrap.min (1).css"
 import Header from "./Components/Header";
-import { Container } from "react-bootstrap";
-import MainScreen from "./Screens/MainScreen";
 import SideBarScreen from "./Screens/SideBarScreen";
 import HomeScreen from "./Screens/HomeScreen"
 import DashBoardScreen from "./Screens/DashBoardScreen"
@@ -56,12 +54,16 @@ function App() {
 
 
           <Route path="/Market">
-            <MarketScreen />
+            <div className="d-flex">
+              <SideBarScreen />
+              <MarketScreen />
+            </div>
           </Route>
 
           <Route path="/Login">
             <LoginScreen />
           </Route>
+
           <Route path="/Register">
             <RegisterScreen />  
           </Route>
