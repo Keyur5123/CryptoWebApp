@@ -1,0 +1,33 @@
+.sidebar__uname {
+    /* padding-top: 5px; */
+    margin-top: 10px;
+    /* color: whitesmoke; */
+    color: white;
+    /* font-family: sans-serif; */
+}
+
+.sidebar__uname > h5 {
+    margin-bottom: 0rem;
+}
+
+.sidebar__icon {
+    margin: 0px 10px;
+}
+
+.sidebar__option {
+    display: flex;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.sidebar__option:hover {
+    color : white;
+}
+
+.sidebar__option > h4,h5,h6 {
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+

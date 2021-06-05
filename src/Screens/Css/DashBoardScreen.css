@@ -1,0 +1,56 @@
+.dashboard {
+    flex : 0.85;
+    margin-top:3rem;
+}
+.card {
+    border-radius: 15px;
+    box-shadow: ivory;
+    box-shadow: 5px 5px 10px 5px rgb(29, 28, 28);
+    transition: 0.8s color ease-in;
+}
+
+.card:hover {
+    background-color: rgba(80, 79, 79, 0.671);
+}
+
+.card__body > hr {
+    border-color: grey;
+}
+
+.req1 {
+    margin-top: 2rem;
+}
+
+.req1 > h5 {
+    padding-bottom: 7px;
+}
+
+#btn11 {
+    margin-top: 1.5rem;
+    padding: 9px 25px;
+    border-radius: 25px;
+}
+
+.form {
+    margin-top: 1.5rem;
+}
+.form > p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.lable1 {
+    font-size: 17px;
+}
+.lable2 {
+    font-size: 17px;
+}
+.lable3 {
+    font-size: 17px;
+}
+
+#btn12 {
+    border-radius: 25px;
+    padding: 11px 25px;
+    margin: 3px 0px;
+}

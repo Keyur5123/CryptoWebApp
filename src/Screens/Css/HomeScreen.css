@@ -1,0 +1,23 @@
+.Home {
+    flex: 0.85;
+}
+
+#btn1 {
+    margin-left: 5px;
+}
+
+.card1 {
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px 5px rgb(29, 28, 28);
+}
+
+.card__body > hr {
+    border-color:lightblue;
+    width:90%;
+}
+
+table, th, td {
+    color: whitesmoke;
+    border: 1px solid grey;
+    padding:5px;
+  }
