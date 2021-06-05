@@ -11,6 +11,16 @@
     box-shadow: 5px 5px 10px 5px rgb(29, 28, 28);
 }
 
+.carousel__title1 {
+    color: lightslategray;
+}
+.carousel__title2 {
+    color: lightslategray;
+}
+.carousel__title3 {
+    color: lightslategray;
+}
+
 .card__body > hr {
     border-color:lightblue;
     width:90%;

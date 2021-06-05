@@ -14,12 +14,11 @@ function HomeScreen() {
                     <img
                         className="d-block pl-2 w-100"
                         src={chart1}
-                        alt="First slide"
+                        alt="flow chart"    
                         height="350"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3 className="carousel__title1">Every Crypto's position</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 
@@ -27,12 +26,12 @@ function HomeScreen() {
                     <img
                         className="d-block pl-2 w-100"
                         src={chart2}
-                        alt="Second slide"
+                        alt="Today's Market"
                         height="350"
                     />
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 className="carousel__title2">Today's Market Prices</h3>
+
                     </Carousel.Caption>
                 </Carousel.Item>
   
@@ -44,8 +43,7 @@ function HomeScreen() {
                         height="350"
                     />
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3 className="carousel__title3">Market position</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

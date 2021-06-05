@@ -1,4 +1,18 @@
 .market {
     flex: 0.85;
     margin: 5px;
+    margin-right:0px;
+}
+
+.market__text {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding-left: 5px;
+    text-align: center;
+    margin-top: 8rem;
+    color: slategrey;
+}
+
+.market__vector {
+    margin-top: 10rem;
 }

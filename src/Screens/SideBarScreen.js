@@ -33,7 +33,7 @@ function SideBarScreen() {
                 <SideBarOption Icon={InputIcon} title="CASH IN"/>
             </Link>
 
-            <Link to="/Withdrawal" className="text-decoration-none text-muted">
+            <Link to="/Withdraw" className="text-decoration-none text-muted">
                 <SideBarOption Icon={HistoryIcon} title="CASHOUT HISTORY"/>
             </Link>
    
